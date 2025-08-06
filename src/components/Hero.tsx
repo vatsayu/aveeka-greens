@@ -23,7 +23,7 @@ const Hero = () => {
               <img 
                 src="/lovable-uploads/83416a8a-c053-4246-aebf-d1b6d3765517.png" 
                 alt="Aveeka Greens Logo" 
-                className="w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0 mb-6 animate-float"
+                className="w-48 h-48 md:w-64 md:h-64 mx-auto md:mx-0 mb-6 animate-float rounded-full"
               />
             </div>
             

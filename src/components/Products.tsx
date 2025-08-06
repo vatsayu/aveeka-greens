@@ -9,7 +9,7 @@ const Products = () => {
       id: 1,
       name: "Laboratory Grown Seedlings",
       description: "Premium quality seedlings grown in controlled laboratory conditions. Perfect for healthy, disease-free plants with guaranteed germination rates.",
-      price: "₹25-50",
+      price: "",
       image: "/lovable-uploads/58213344-050d-4717-b73e-b7b4fc882ff9.png",
       category: "Laboratory",
       featured: true,
@@ -19,7 +19,7 @@ const Products = () => {
       id: 2,
       name: "Tissue Culture Plants",
       description: "Advanced tissue culture specimens in sterile containers. These plants offer superior genetics and consistent quality for serious gardeners.",
-      price: "₹75-150",
+      price: "",
       image: "/lovable-uploads/9d45e7f9-d0b4-4f8b-95f8-d64a034437b7.png",
       category: "Laboratory",
       featured: true,
@@ -29,7 +29,7 @@ const Products = () => {
       id: 3,
       name: "Micro-propagated Specimens",
       description: "Scientifically propagated plants with enhanced growth characteristics. Ideal for commercial cultivation and research purposes.",
-      price: "₹100-200",
+      price: "",
       image: "/lovable-uploads/2523cc72-e25c-4a43-8c12-10b05b80f5ea.png",
       category: "Laboratory",
       featured: false,
@@ -39,7 +39,7 @@ const Products = () => {
       id: 4,
       name: "Fresh Leafy Greens",
       description: "Organically grown fresh vegetables and leafy greens. Perfect for your kitchen garden and healthy eating lifestyle.",
-      price: "₹20-40",
+      price: "",
       image: "/lovable-uploads/03a48b7e-33ad-4d55-bde5-cdc1f7fe564f.png",
       category: "Vegetables",
       featured: true,
@@ -49,7 +49,7 @@ const Products = () => {
       id: 5,
       name: "Young Plant Nursery",
       description: "Healthy young plants ready for transplanting. These robust seedlings are perfect for starting your own garden.",
-      price: "₹15-35",
+      price: "",
       image: "/lovable-uploads/f103a41f-fd69-4236-8eca-961f863f71ed.png",
       category: "Nursery",
       featured: false,
@@ -59,7 +59,7 @@ const Products = () => {
       id: 6,
       name: "Premium Seedlings",
       description: "Hand-selected premium seedlings with strong root systems. Perfect for both indoor and outdoor cultivation.",
-      price: "₹30-60",
+      price: "",
       image: "/lovable-uploads/d3ff47a6-9a09-4297-9a97-2d4e8578ea70.png",
       category: "Nursery",
       featured: true,
@@ -128,8 +128,7 @@ const Products = () => {
               </CardHeader>
               
               <CardContent>
-                <div className="flex items-center justify-between">
-                  <span className="text-2xl font-bold text-primary">{product.price}</span>
+                <div className="flex items-center justify-center">
                   <Badge variant={product.inStock ? "default" : "secondary"}>
                     {product.inStock ? "In Stock" : "Out of Stock"}
                   </Badge>

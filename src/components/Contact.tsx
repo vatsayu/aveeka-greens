@@ -21,7 +21,7 @@ const Contact = () => {
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      info: "Gujarat, India",
+      info: "Uttar Pradesh, Ghaziabad",
       link: "#"
     },
     {

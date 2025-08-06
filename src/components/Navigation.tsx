@@ -27,7 +27,7 @@ const Navigation = () => {
             <img 
               src="/lovable-uploads/83416a8a-c053-4246-aebf-d1b6d3765517.png" 
               alt="Aveeka Greens" 
-              className="w-10 h-10 mr-3"
+              className="w-10 h-10 mr-3 rounded-full"
             />
             <span className="text-xl font-bold text-primary">Aveeka Greens</span>
           </div>

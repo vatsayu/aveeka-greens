@@ -30,7 +30,7 @@ const About = () => {
     { number: "10,000+", label: "Plants Grown" },
     { number: "500+", label: "Happy Customers" },
     { number: "5+", label: "Years Experience" },
-    { number: "50+", label: "Plant Varieties" }
+    { number: "30+", label: "Plant Varieties" }
   ];
 
   return (
