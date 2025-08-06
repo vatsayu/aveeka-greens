@@ -38,7 +38,7 @@ const Products = () => {
     {
       id: 4,
       name: "Fresh Leafy Greens",
-      description: "Organically grown fresh vegetables and leafy greens. Perfect for your kitchen garden and healthy eating lifestyle.",
+      description: "Fresh vegetables and leafy greens. Perfect for your kitchen garden and healthy eating lifestyle.",
       price: "",
       image: "/lovable-uploads/03a48b7e-33ad-4d55-bde5-cdc1f7fe564f.png",
       category: "Vegetables",

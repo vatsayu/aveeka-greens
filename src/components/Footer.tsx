@@ -15,7 +15,7 @@ const Footer = () => {
     "Vegetables",
     "Seedlings",
     "Nursery Plants",
-    "Organic Plants"
+    "Specialty Plants"
   ];
 
   const scrollToSection = (href: string) => {
@@ -55,11 +55,11 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="w-5 h-5 text-green-200" />
-                <span className="text-green-100">info@aveekagreens.com</span>
+                <span className="text-green-100">aveekagreens2016@yahoo.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="w-5 h-5 text-green-200" />
-                <span className="text-green-100">Gujarat, India</span>
+                <span className="text-green-100">Ghaziabad, India</span>
               </div>
             </div>
           </div>

@@ -15,13 +15,13 @@ const Contact = () => {
     {
       icon: <Mail className="w-6 h-6" />,
       title: "Email",
-      info: "info@aveekagreens.com",
-      link: "mailto:info@aveekagreens.com"
+      info: "aveekagreens2016@yahoo.com",
+      link: "mailto:aveekagreens2016@yahoo.com"
     },
     {
       icon: <MapPin className="w-6 h-6" />,
       title: "Location",
-      info: "Uttar Pradesh, Ghaziabad",
+      info: "Ghaziabad, India",
       link: "#"
     },
     {
