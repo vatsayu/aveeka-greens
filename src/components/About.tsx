@@ -60,7 +60,7 @@ const About = () => {
               grow meets the highest standards of health and vitality.
             </p>
             <p className="text-muted-foreground text-lg leading-relaxed mb-6">
-              From tissue culture propagation to organic cultivation, we use innovative methods 
+              From tissue culture propagation to advanced cultivation methods, we use innovative techniques 
               to produce plants that not only survive but flourish in their new homes. Whether 
               you're a beginner gardener or an experienced horticulturist, we have the perfect 
               plants for your needs.
